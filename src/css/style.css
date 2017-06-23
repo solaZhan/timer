@@ -1,0 +1,37 @@
+#timerContainer{
+	width:300px;
+	border:1px solid #ddd;
+}
+#timerContainer header{
+	line-height:30px;
+	text-align:center;
+	border-bottom: 1px solid #ddd;
+}
+#timerContainer header span{
+	display: inline-block;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+}
+#timerContainer header span.right{
+	float:right;
+}
+#timerContainer header span.left{
+	float:left;
+}
+#timerContainer .body{
+	padding:10px;
+}
+.body .line{
+	display:flex;
+}
+.line span{
+	display:block;
+	flex:1;
+	text-align:center;
+	cursor: pointer;
+}
+.line span:hover{
+	color:#4aa3e9;
+}
